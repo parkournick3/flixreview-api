@@ -7,6 +7,10 @@ ruby '3.3.0'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.1.3', '>= 7.1.3.2'
 
+gem 'jsonapi-rails'
+
+gem 'cancancan'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
@@ -47,3 +51,5 @@ group :development do
   # gem "spring"
   gem 'rubocop', require: false
 end
+
+gem "devise", "~> 4.9"
